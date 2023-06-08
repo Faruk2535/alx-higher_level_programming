@@ -8,6 +8,6 @@ if __name__ == "__main__":
     else:
         i, sum = 1, 0
         while i < (len(sys.argv)):
-           sum = sum + int(sys.argv[i])
-           i = i + 1
+            sum = sum + int(sys.argv[i])
+            i = i + 1
         print("{}".format(sum))
